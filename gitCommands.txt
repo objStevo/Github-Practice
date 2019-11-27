@@ -1,0 +1,35 @@
+git init = Initializes a local git stage.
+ls -a = Will show the hidden files including the git file
+git status = will show the files that are/aren't in the staging area
+git add = Will put the file in the git staging area
+git commit -m "<Enter message>"= this will commit all the files in the staging area, the message should be in presence tense
+git log = Will provide a log of all the commits, it will show the unique hash value for each commit
+git add . = Will add everything in the current directory.
+git checkout <filename> = Will revert to last save spot from the local repo to working Directory
+git diff <filename> = Will return the differences between the working directory and local Directory
+git remote add origin = Telling local git repo that we want to transfer to remote Repository called origin.This is just a conventional filename
+git push -u origin master = Will push local git repo to online Repository. It pushes local repo to remote repo with -u flag which links up remote and local repos, pushed to remote repo named origin, and to branch named master
+touch .<filename> = This will create secret files
+touch .gitignore = Creates a secret file, that you put the filenames that you dont want to be uploaded, github reads this and ignores those filenames
+git rm --cached -r . = This tells git you want to remove all the cached file -r recursively in the local repo .
+# = This comments in the gitignore files, also you need to add files in a new line
+*.txt = Within the .gitignore file will ignore all the files with the .txt extension
+clone = When on a github project go to clone and copy the url on the top right hand corner
+git clone <url> = will clone remote repo to local working directory.
+git log = can used to checkout the commits of a cloned repo
+git branch <name of branch> = will create separate
+git branch = without the name will show you the different branches, the asterisk, shows you which branch you are currently on
+git checkout <branch name> = will take you to the other branches
+
+
+
+
+
+Notes:
+- Working Directory -> Staging Area -> Local Repository
+- Git will manage the changes between the working directory and git local Directory
+- We can push our local git repo to github
+- Origin is just the name of the remote repo, we use origin by convention
+- You can find gitignore templates on github that are made for things like xcode, so that you dont copy your confirgurations
+- A merge request is essentially a push request to the master branch of a separate branch
+-
