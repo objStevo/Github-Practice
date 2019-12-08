@@ -20,6 +20,7 @@ git log = can used to checkout the commits of a cloned repo
 git branch <name of branch> = will create separate
 git branch = without the name will show you the different branches, the asterisk, shows you which branch you are currently on
 git checkout <branch name> = will take you to the other branches
+git merge <branch name> = Will merge the branch you specify in branch name with the branch you are in, usually master
 
 
 
